@@ -1,0 +1,32 @@
+#title {
+    display: block;
+    padding: 0 0 0 220px;
+    width: auto;
+    height: auto;
+}
+
+#title p {
+    text-align: center;
+    color: gold;
+    font-family: Arial black, sans-serif, "fantasy";
+    font-size: 75px;
+}
+
+#German-main {
+    width: auto;
+    height: auto;
+    background: rgb(0, 0, 0);
+}
+
+#main-div {
+    margin: 0 10px 0 280px;
+}
+
+.sticky {
+    position: sticky;
+    top:0;
+    width: 100%;
+    background: rgba(255, 0, 0, 1);
+    height: 30px;
+    text-align: center;
+}
