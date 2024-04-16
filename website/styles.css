@@ -7,29 +7,11 @@
     animation: 2s fadein;
 }
 
-.container-main {
-    top: 10px;
-    left: 10px;
-    position: relative;
-    margin: 40px 20px;
-    display: inline-block;
-    border: 2px rgb(255, 255, 255) solid;
-    height: 150px;
-    width: 300px;
-    background: rgba(37, 37, 59, 1);
-    box-shadow: 10px 10px 5px black;
-    transition: 0.25s;
-}
-
 .container-main:hover {
     top: 0;
     left: 0;
     box-shadow: 20px 20px 5px black;
     background: rgba(133, 133, 155, 0.7);
-}
-
-#main-div {
-    text-align: center;
 }
 
 #pre-main {
