@@ -8,16 +8,40 @@ body {
 }
 
 header {
-    background-color: #4793AF;
     height: 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 44rem 0 13rem;
 }
 
 nav {
-    display: flex;
     width: 10rem;
+    display: flex;
     justify-content: space-between;
-    padding-left: 200px;
+    align-items: center;
+}
+
+main {
+    margin: 0 44rem 0 13rem;
+    height: 93.95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-courses {
+    
+}
+
+.germany-flag {
+    width: 3.5rem;
+}
+
+.us-flag {
+    width: 3.5rem;
 }
