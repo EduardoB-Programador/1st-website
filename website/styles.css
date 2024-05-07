@@ -5,37 +5,33 @@
 
 body {
     background-color: #F8F7F4;
+    font-family: Nunito Sans;
+    color: #5C5555;
 }
 
 header {
-    height: 3rem;
+    height: 4rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 44rem 0 13rem;
-}
-
-nav {
-    width: 10rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
 }
 
 main {
-    margin: 0 44rem 0 13rem;
-    height: 93.95vh;
+    height: 91.5vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
 }
 
-.container-courses {
-    
+h1 {
+    font-family: Poppins;
+    font-size: 3rem;
+    color: #1A1A1A;
 }
 
 .germany-flag {
@@ -44,4 +40,25 @@ a {
 
 .us-flag {
     width: 3.5rem;
+}
+
+#logo {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    background: linear-gradient(to top, #D4214B, #A40EB1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#right-image {
+    width: 30rem;
+}
+
+#left-container {
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
