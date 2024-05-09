@@ -11,17 +11,18 @@ body {
 
 header {
     height: 4rem;
+    width: 100vw;
+    gap: 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 1rem;
+    justify-content: center;
 }
 
 main {
     height: 91.5vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 
 a {
@@ -30,7 +31,7 @@ a {
 
 h1 {
     font-family: Poppins;
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #1A1A1A;
 }
 
@@ -45,11 +46,15 @@ h1 {
 #logo {
     font-family: Poppins;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
 
     background: linear-gradient(to top, #D4214B, #A40EB1);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+#about-us {
+    color: #343232;
 }
 
 #right-image {
@@ -57,7 +62,7 @@ h1 {
 }
 
 #left-container {
-    height: 17rem;
+    height: 17.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
