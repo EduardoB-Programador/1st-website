@@ -13,13 +13,14 @@ header {
     height: 4rem;
     width: 100vw;
     gap: 2rem;
+
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 main {
     height: 91.5vh;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -48,6 +49,8 @@ h1 {
     font-size: 1.5rem;
     font-weight: 400;
 
+    margin-left: 8rem;
+
     background: linear-gradient(to top, #D4214B, #A40EB1);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -66,4 +69,68 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (max-width: 1150px) {
+    main {
+        height: 91.5vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header {
+        height: 4rem;
+        width: 100vw;
+        gap: 2rem;
+    
+        display: flex;
+        align-items: center;
+    }
+
+    #logo {
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-weight: 400;
+    
+        margin-left: 8rem;
+    
+        background: linear-gradient(to top, #D4214B, #A40EB1);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 1150px) {
+    main {
+        height: 91.5vh;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        height: 4rem;
+        width: 100vw;
+        gap: 2rem;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo {
+        font-family: Poppins;
+        font-size: 1.5rem;
+        font-weight: 400;
+    
+        margin: 0;
+
+        background: linear-gradient(to top, #D4214B, #A40EB1);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
